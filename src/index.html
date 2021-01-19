@@ -4,10 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title></title>
+    <title>Progress Loop</title>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
   </head>
+  <body >
+    <div id="app"  class="container" x-data="init()">
 
-  <body>
-    <main class="container"></main>
+    ${require('./partials/topnav.html')}
+
+    <section class="main-content columns is-fullheight">
+      <aside class="column is-2 is-narrow-mobile is-fullheight section">
+
+        ${require('./partials/sidebar.html')}
+
+      </aside>
+
+      <div class="column is-10">
+
+        ${require('./partials/mainnav.html')}
+
+        ${require('./partials/main.html')}
+
+      </div>
+
+    </section>
   </body>
+  <footer>
+
+  </footer>
 </html>

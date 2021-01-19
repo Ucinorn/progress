@@ -22,57 +22,6 @@ For more advanced webpacking, check out this cool book: https://survivejs.com/we
 
 ## Setup
 
-1. Clone this repository into a new project folder (replace `[project name]` with your project's name)
-
-   ```
-   git clone git@github.com:DigitalCareerInstitute/dci-boilerplate-II.git [project name]
-   ```
-
-1. Delete the boilerplate's git history
-
-   ```
-   cd <project name>
-   rm -rf .git
-   ```
-
-1. Edit `package.json` to add you project's name
-
-   `package.json`
-
-   ```json
-   {
-     "name": "[project name]",
-     ...
-     "author": "[your name]"
-   }
-   ```
-
-1. Edit `index.html` to add your projects name
-
-   ```html
-   ...
-   <head>
-     ...
-     <title>[project name]</title>
-   </head>
-   ...
-   ```
-
-1. Start a new git repository and make an initial commit
-
-   ```
-   git init
-   git add . && git commit -m "Initial commit"
-   ```
-
-1. Install the dependencies
-
-   ```
-   npm install
-   ```
-
-1. Have fun coding :D
-
 ## Useful Commands
 
 ### Development

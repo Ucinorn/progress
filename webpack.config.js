@@ -27,6 +27,7 @@ const config = {
       // index.html
       {
         test: /\.html$/,
+        include: path.join(__dirname, 'src/partials'),
         use: [
           {
             loader: 'html-loader',
